@@ -38,3 +38,7 @@ a {
 ol li {
     margin-top: 20px;
 }
+
+img {
+    border: 5px solid darkgreen;
+}
