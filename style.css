@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: antiquewhite;
@@ -41,4 +45,34 @@ ol li {
 
 img {
     border: 5px solid darkgreen;
+}
+
+.homepage {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage ul {
+    list-style-type: none;
+}
+
+.homepage li {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: darkgreen;
+    padding: 50px;
+    margin-right: 50px;
+}
+
+.homepage a {
+    color: white;
+}
+
+.navigation {
+    border: 5px solid red;
+    width: 50%;
+    margin: 0 auto;
+    background-color: burlywood;
 }
